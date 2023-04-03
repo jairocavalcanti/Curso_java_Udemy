@@ -2,7 +2,7 @@ package Sessão8.Membros_estaticos.Pratico4;
 
 import java.util.Scanner;
 
-//1 dolar == R$ 5,14 
+//1 dolar == R$ 5,11
 public class Principal {
 
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class Principal {
 
     System.out.printf("qual o valor do dolar? ");
     Double dolar = scanner.nextDouble();
-
 
     System.out.printf("Quantos dolares vao ser comprados? ");
     Double dolar2 = scanner.nextDouble();
@@ -22,5 +21,6 @@ public class Principal {
     System.out.println("Dolares comprados: " + dolar2);
     System.out.println( "Valor a ser pago: " + (cotafinal + taxa ));
    
+    scanner.close();
     }
   }
