@@ -7,7 +7,7 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
 
         Metodos met;
-        Integer quqnatidadedemuniçao = 0;
+        Integer quantidademuniçao = 0;
 
         System.out.println("Insira o nome da arma:");
         String nome = scanner.next();
@@ -21,11 +21,11 @@ public class Principal {
         System.out.println("Insira a quantiade de balas a serem adicionadas:");
         Integer quant2 = scanner.nextInt();
         
-        met = new Metodos(quqnatidadedemuniçao, nome, calibre);
+        met = new Metodos(quantidademuniçao, nome, calibre);
         met.adicionarmuniçao(quant2);
        
        }else{
-            met = new Metodos(quqnatidadedemuniçao, nome, calibre);
+            met = new Metodos(quantidademuniçao, nome, calibre);
         }
        
         System.out.println("Dados atualizados:");
