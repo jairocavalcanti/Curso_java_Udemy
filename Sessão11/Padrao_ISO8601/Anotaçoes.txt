@@ -1,0 +1,18 @@
+ :: --- PADRAO ISO 8601 --- ::
+
+Data-[hora]local:
+====================
+2023-05-17
+2023-05-17T14:52
+2023-05-17T14:52:09
+2023-05-17T14:52:09.4073
+'T' significa "time" ou "hora"
+
+Data-hora global:
+===================
+2023-05-17T14:52:09Z
+2023-05-17T14:52:09.254935Z
+2023-05-17T14:52:09-03:00
+
+'Z' significa 'zulu time', um dos nomes dados ao fuso horario de londres
+'-' acima significa operaçao de subtraçao, ou seja, outro fuso horario está sendo indicado

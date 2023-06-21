@@ -12,7 +12,7 @@ public class Atributos2 {
         this.quantidade = quantidade;
     }
  
-    public  void adicionarprodutos(Integer quantidade){
+    public void adicionarprodutos(Integer quantidade){
         this.quantidade += quantidade;
     }
 
