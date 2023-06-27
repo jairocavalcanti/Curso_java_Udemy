@@ -31,7 +31,7 @@ public class Principal2 {
         double result2 = zero / vet.length;
         
 
-        System.out.println("Soma dos elemenetos:" + result);
+        System.out.println("Soma dos elementos:" + result);
         System.out.println("Resultado da media das somas:" + result2);
   
         scanner.close();
