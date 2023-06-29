@@ -1,4 +1,4 @@
-package Sessão8.Problema_com_oo;
+package Sessão8.Problema_com_oo.Exercicio1;
 
 public class Triangulo {
     
