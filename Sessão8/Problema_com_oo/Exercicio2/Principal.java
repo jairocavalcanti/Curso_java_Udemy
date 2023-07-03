@@ -18,6 +18,7 @@ public class Principal {
 
         double area = quad.lado1 * quad.lado2;
 
+        System.out.println("Teste git 2");
         System.out.println("teste git");
         System.out.println("Area do quadrado: " + area);
         
