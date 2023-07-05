@@ -18,10 +18,10 @@ public class Principal {
 
         double area = quad.lado1 * quad.lado2;
 
-      
+
         System.out.println("Area do quadrado: " + area);
         
-
+        
         scanner.close();
     }
 

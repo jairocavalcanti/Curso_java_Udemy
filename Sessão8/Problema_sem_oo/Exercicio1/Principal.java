@@ -1,4 +1,4 @@
-package Sessão8.Problema_sem_oo;
+package Sessão8.Problema_sem_oo.Exercicio1;
 
 import java.util.Scanner;
 
