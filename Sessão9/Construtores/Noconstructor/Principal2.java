@@ -1,4 +1,5 @@
-package Sessão9.Construtores.Pratico2;
+package Sessão9.Construtores.Noconstructor;
+
 
 import java.util.Scanner;
 
