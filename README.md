@@ -3,7 +3,7 @@
 Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java udemy
 
 ## Sessão 8 : 
-Introdução à Programação Orientada a Objetos
+
 - Membros_Estaticos
 - Pratico1
 - Pratico2
