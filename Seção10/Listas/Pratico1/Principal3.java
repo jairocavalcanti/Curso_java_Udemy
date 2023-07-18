@@ -1,4 +1,4 @@
-package Sessão10.Listas.Pratico1;
+package Seção10.Listas.Pratico1;
 
 import java.util.ArrayList;
 import java.util.List;

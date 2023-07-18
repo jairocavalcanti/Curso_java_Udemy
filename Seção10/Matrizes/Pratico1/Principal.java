@@ -1,4 +1,4 @@
-package Sessão10.Matrizes.Pratico1;
+package Seção10.Matrizes.Pratico1;
 
 import java.util.Scanner;
 
