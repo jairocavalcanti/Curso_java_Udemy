@@ -1,4 +1,4 @@
-package Sessão10.Vetores.Pratico2;
+package Seção10.Vetores.Pratico2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Sessão10.Exercicio_Proposto.Pratico1;
+package Seção10.Exercicio_Proposto.Pratico1;
 
 import java.util.ArrayList;
 import java.util.Scanner;

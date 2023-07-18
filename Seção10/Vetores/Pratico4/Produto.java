@@ -1,4 +1,4 @@
-package Sessão10.Vetores.Pratico4;
+package Seção10.Vetores.Pratico4;
 
 public class Produto {
 

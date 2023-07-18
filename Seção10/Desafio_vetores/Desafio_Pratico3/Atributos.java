@@ -1,4 +1,4 @@
-package Sessão10.Desafio_vetores.Desafio_Pratico3;
+package Seção10.Desafio_vetores.Desafio_Pratico3;
 
 public class Atributos {
     

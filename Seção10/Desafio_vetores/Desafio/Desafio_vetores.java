@@ -1,4 +1,4 @@
-package Sessão10.Desafio_vetores.Desafio;
+package Seção10.Desafio_vetores.Desafio;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Sessão8.Pratico3;
+package Seção8.Pratico3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Sessão10.Boxing_unboxing_wrapper.Info;
+package Seção10.Boxing_unboxing_wrapper.Info;
 
 public class Testes {
     public static void main(String[] args) {

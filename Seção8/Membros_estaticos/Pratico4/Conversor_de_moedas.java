@@ -1,4 +1,4 @@
-package Sessão8.Membros_estaticos.Pratico4;
+package Seção8.Membros_estaticos.Pratico4;
 
 public class Conversor_de_moedas {
     

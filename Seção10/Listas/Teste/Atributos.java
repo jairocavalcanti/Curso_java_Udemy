@@ -1,4 +1,4 @@
-package Sessão10.Listas.Teste;
+package Seção10.Listas.Teste;
 
 public class Atributos {
     

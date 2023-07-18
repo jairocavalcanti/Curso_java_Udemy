@@ -1,4 +1,4 @@
-package Sessão8.Problema_com_metodo.Exercicio2;
+package Seção8.Problema_com_metodo.Exercicio2;
 
 public class Metodorraiz {
 

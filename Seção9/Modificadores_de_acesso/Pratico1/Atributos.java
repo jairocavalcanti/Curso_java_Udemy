@@ -1,4 +1,4 @@
-package Sessão9.Modificadores_de_acesso.Pratico1;
+package Seção9.Modificadores_de_acesso.Pratico1;
 
 import java.util.Date;
 

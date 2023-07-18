@@ -1,4 +1,4 @@
-package Sessão10.Laco_foreach.Pratico;
+package Seção10.Laco_foreach.Pratico;
 
 public class Principal {
     

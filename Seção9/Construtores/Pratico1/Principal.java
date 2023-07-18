@@ -1,4 +1,4 @@
-package Sessão9.Construtores.Pratico1;
+package Seção9.Construtores.Pratico1;
 
 import java.util.Locale;
 import java.util.Scanner;

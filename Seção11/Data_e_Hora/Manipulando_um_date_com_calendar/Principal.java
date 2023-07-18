@@ -1,4 +1,4 @@
-package Sessão11.Data_e_Hora.Manipulando_um_date_com_calendar;
+package Seção11.Data_e_Hora.Manipulando_um_date_com_calendar;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;

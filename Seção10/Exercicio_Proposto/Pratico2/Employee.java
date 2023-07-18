@@ -1,4 +1,4 @@
-package Sessão10.Exercicio_Proposto.Pratico2;
+package Seção10.Exercicio_Proposto.Pratico2;
 
 public class Employee {
     

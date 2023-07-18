@@ -1,4 +1,4 @@
-package Sessão8.Pratico2;
+package Seção8.Pratico2;
 
 public class Funcionario {
   public String nome;

@@ -1,4 +1,4 @@
-package Sessão9.Construtores.Noconstructor;
+package Seção9.Construtores.Noconstructor;
 
 public class No_constructor {
     

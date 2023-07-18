@@ -1,4 +1,4 @@
-package Sessão11.Data_e_Hora.Trabalhando_com_datas;
+package Seção11.Data_e_Hora.Trabalhando_com_datas;
 
 import java.util.Date;
 import java.util.TimeZone;

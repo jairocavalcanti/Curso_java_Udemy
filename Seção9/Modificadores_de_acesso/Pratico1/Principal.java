@@ -1,4 +1,4 @@
-package Sessão9.Modificadores_de_acesso.Pratico1;
+package Seção9.Modificadores_de_acesso.Pratico1;
 
 //PRIVATE: o membro so pode ser acessado na PROPRIA CLASSE
 //(nada): o membro so pode ser acessado nas classes do MESMO PACOTE 

@@ -1,4 +1,4 @@
-package Sessão9.Construtores.Pratico2;
+package Seção9.Construtores.Pratico2;
 
 public class Constructor {
 

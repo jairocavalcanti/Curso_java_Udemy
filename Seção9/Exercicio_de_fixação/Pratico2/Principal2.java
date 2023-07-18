@@ -1,4 +1,4 @@
-package Sessão9.Exercicio_de_fixação.Pratico2;
+package Seção9.Exercicio_de_fixação.Pratico2;
 
 import java.util.Locale;
 import java.util.Scanner;

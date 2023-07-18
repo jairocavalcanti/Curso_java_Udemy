@@ -1,4 +1,4 @@
-package Sessão8.Membros_estaticos.Pratico2;
+package Seção8.Membros_estaticos.Pratico2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Sessão10.Exercicio_Proposto.Pratico4;
+package Seção10.Exercicio_Proposto.Pratico4;
 
 import java.util.ArrayList;
 import java.util.List;

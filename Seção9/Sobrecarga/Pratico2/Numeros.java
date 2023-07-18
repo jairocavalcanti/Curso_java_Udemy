@@ -1,4 +1,4 @@
-package Sessão9.Sobrecarga.Pratico2;
+package Seção9.Sobrecarga.Pratico2;
 
 public class Numeros {
     Integer numero1;

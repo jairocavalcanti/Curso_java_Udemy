@@ -1,4 +1,4 @@
-package Sessão10.Exercicio_Proposto.Pratico6;
+package Seção10.Exercicio_Proposto.Pratico6;
 
 public class Atributos {
     private String nome;

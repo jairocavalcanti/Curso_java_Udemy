@@ -1,4 +1,4 @@
-package Sessão10.Exercicio_Proposto.Pratico5;
+package Seção10.Exercicio_Proposto.Pratico5;
 
 public class Jogadores {
     private String nome;

@@ -1,4 +1,4 @@
-package Sessão9.Sobrecarga.Pratico1;
+package Seção9.Sobrecarga.Pratico1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Sessão9.Encapsulamento.Pratico2;
+package Seção9.Encapsulamento.Pratico2;
 
 public class Atributos2 {
     

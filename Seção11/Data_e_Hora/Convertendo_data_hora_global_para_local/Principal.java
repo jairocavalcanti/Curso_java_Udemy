@@ -1,4 +1,4 @@
-package Sessão11.Data_e_Hora.Convertendo_data_hora_global_para_local;
+package Seção11.Data_e_Hora.Convertendo_data_hora_global_para_local;
 
 import java.time.Instant;
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package Sessão8.Membros_estaticos.Pratico3;
+package Seção8.Membros_estaticos.Pratico3;
 
 public class calculador2 {
     

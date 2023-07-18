@@ -1,4 +1,4 @@
-package Sessão9.Exercicio_de_fixação.Pratico4;
+package Seção9.Exercicio_de_fixação.Pratico4;
 
 public class Classe2 {
     

@@ -1,4 +1,4 @@
-package Sessão9.Encapsulamento.Pratico1;
+package Seção9.Encapsulamento.Pratico1;
 
 public class Atributos {
     private String nome;
