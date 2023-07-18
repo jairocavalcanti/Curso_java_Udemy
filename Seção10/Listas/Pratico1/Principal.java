@@ -1,4 +1,4 @@
-package Sessão10.Listas.Pratico1;
+package Seção10.Listas.Pratico1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,11 @@ import java.util.stream.Collectors;
 public class Principal {
 
     public static void main(String[] args) {
-        
+        //
         //lista nao pode ser criada com tipos primitivos, apenas com wrapper classes
         //List<int> list1;
        
+
         //sintaxe correta para lista do tipo String
         List<String> list2 = new ArrayList<>();
 
