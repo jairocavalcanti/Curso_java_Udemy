@@ -2,7 +2,7 @@
 
 Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java udemy
 
-## Sessão 8 : 
+## Seção 8 : 
 
 - Membros_Estaticos
 - Pratico1
@@ -12,14 +12,14 @@ Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java
 - Problema_com_oo
 - Problema_sem_oo
 
-## Sessão 9 :
+## Seção 9 :
 - Construtores
 - Encapsulamento
 - Exercicio_de_fixação
 - Modificadores_de_acesso
 - Sobrecarga
 
-## Sessão 10 : 
+## Seção 10 : 
 - Boxing_unboxing_wrapper
 - Desafio_vetores
 - Exercicio_proposto
@@ -28,7 +28,7 @@ Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java
 - Matrizes
 - Vetores
 
-## Sessão 11 : 
+## Seção 11 : 
 - Calculos_com_data_hora
 - Convertendo_data_hora_global_para_local
 - Convertendo_data_hora_para_texto
