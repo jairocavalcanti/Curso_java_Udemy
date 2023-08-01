@@ -61,5 +61,7 @@ Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java
 - Como atualizar o repositório local em relação ao remoto
 - Como resolver push rejeitado por históricos diferentes
 - Resolvendo pull com conflito
+- Como sobrescrever um histórico no github
+- Como apontar o projeto para outro repositório remoto 
 
   
