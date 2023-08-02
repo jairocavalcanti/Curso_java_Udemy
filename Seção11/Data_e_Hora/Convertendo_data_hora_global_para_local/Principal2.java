@@ -8,6 +8,8 @@ public class Principal2 {
     
         //FORMATO PADRÃO = ANO/MES/DIA  
         LocalDate date = LocalDate.now();
+                    
+        //FORMATAÇÃO PARA FORMATO UTILIZADO EM REGIÃO NACIONAL
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MM yyyy");
 
         String parsedDate = date.format(formatter);
