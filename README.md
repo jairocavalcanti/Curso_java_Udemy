@@ -62,6 +62,10 @@ Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java
 - Como resolver push rejeitado por históricos diferentes
 - Resolvendo pull com conflito
 - Como sobrescrever um histórico no github
-- Como apontar o projeto para outro repositório remoto 
+- Como apontar o projeto para outro repositório remoto
+
+  ## Seção 13 :
+  - Composição
+  - Enumerações
 
   
