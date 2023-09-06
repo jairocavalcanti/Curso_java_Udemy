@@ -64,8 +64,8 @@ Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java
 - Como sobrescrever um histórico no github
 - Como apontar o projeto para outro repositório remoto
 
-  ## Seção 13 :
-  - Composição
-  - Enumerações
+## Seção 13 :
+- Composição
+- Enumerações
 
   
