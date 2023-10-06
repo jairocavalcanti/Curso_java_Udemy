@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Pedido {
     
-    private Date moment;
+    private Date momento;
     private Status_pedido status;
     private Cliente cliente;
 
@@ -18,18 +18,18 @@ public class Pedido {
 
     }
 
-    public Pedido(Date moment, Status_pedido status, Cliente cliente) {
-        this.moment = moment;
+    public Pedido(Date momento, Status_pedido status, Cliente cliente) {
+        this.momento = momento;
         this.status = status;
         this.cliente = cliente;
     }
 
-    public Date getMoment() {
-        return moment;
+    public Date getMomento() {
+        return momento;
     }
 
-    public void setMoment(Date moment) {
-        this.moment = moment;
+    public void setMomento(Date moment) {
+        this.momento = moment;
     }
 
     public Status_pedido getStatus() {
@@ -68,17 +68,17 @@ public class Pedido {
     @Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("Order moment: ");
-		sb.append(sdf.format(moment) + "\n");
-		sb.append("Order status: ");
+		sb.append("Momento do pedido: ");
+		sb.append(sdf.format(momento) + "\n");
+		sb.append("Status do pedido: ");
 		sb.append(status + "\n");
-		sb.append("Client: ");
+		sb.append("Cliente: ");
 		sb.append(cliente + "\n");
-		sb.append("Order items:\n");
+		sb.append("Items do pedido:\n");
 		for (Item_pedido item : items) {
 			sb.append(item + "\n");
 		}
-		sb.append("Total price: $");
+		sb.append("Preço total: $");
 		sb.append(String.format("%.2f", total()));
 		return sb.toString();
 }

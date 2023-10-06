@@ -2,24 +2,24 @@ package Seção13.Composição.Pratico4;
 
 public class Produto {
 
-    private String name;
+    private String nome;
     private Double preco;
 
     public Produto(){
 
     }
 
-    public Produto(String name, Double preco) {
-        this.name = name;
+    public Produto(String nome, Double preco) {
+        this.nome = nome;
         this.preco = preco;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String name) {
+        this.nome = name;
     }
 
     public Double getPreco() {
