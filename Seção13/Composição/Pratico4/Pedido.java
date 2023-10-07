@@ -48,6 +48,10 @@ public class Pedido {
         this.cliente = cliente;
     }
 
+    
+    public List<Item_pedido> getItems() {
+        return items;
+    }
 
     public void additem(Item_pedido item){
         items.add(item);
