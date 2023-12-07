@@ -39,13 +39,13 @@ public class Principal {
                 System.out.println("Insira a quantia a ser sacada: ");
                 Double quantia = scanner.nextDouble();
                 conta.saque(quantia);
-                System.out.println("-- Saque realizado com sucesso! --");
+                System.out.println("-- Saque realizado com sucesso ! --");
                 System.out.println("Saldo disponivel na conta apos o saque: " + conta.getSaldo());
             }else{
                 System.out.println("Insira a quantida a ser depositada: ");
                 Double quantia2 = scanner.nextDouble();
                 conta.depositar(quantia2);
-                System.out.println("-- Deposito realizdo com sucesso! -- ");
+                System.out.println("-- Deposito realizdo com sucesso ! -- ");
                 System.out.println("Saldo disponivel na conta apos o deposito: " + conta.getSaldo());
 
             }
@@ -69,18 +69,26 @@ public class Principal {
             if(escolha2 == 1){
                System.out.println("Insira a quantia a ser sacada: ");
                Double quantia2 = scanner.nextDouble();
-               
+               conta.saque(quantia2);
+               System.out.println("-- Saque realizado com sucesso ! -- ");
+               System.out.println("Saldo disponivel na conta apos o saque: " + conta.getSaldo());
+            }
+            if(escolha2 == 2){
+                System.out.println("Insira a quantia a ser depositada: ");
+                Double quantia2 = scanner.nextDouble();
+                conta.depositar(quantia2);
+                System.out.println("-- Deposito realizado com sucesso ! --");
+                System.out.println("Saldo disponivel na conta apos deposito: " + conta.getSaldo());
+            }
+            if(escolha2 == 3){
+                System.out.println("Saldo disponivel na conta de numero #" + conta.getNumero() + ":" + conta.getSaldo());
+                System.out.println("Insira a quantidade do valor a ser solicitado para emprestimo: ");
+                Double emprestimo = scanner.nextDouble();
+                conta.setLimite_de_emprestimo(saldo2);
+                conta.emprestimo(emprestimo);
+                System.out.println("Saldo na conta após emprestimo: " + conta.getSaldo());        
             }
             
-            
-
-
-
-
-
-
-
-
                 break;    
 
             case 0:

@@ -28,6 +28,8 @@ public class Conta_negocios extends Conta {
     public void emprestimo(Double valor){
         if(valor <= limite_de_emprestimo){
             saldo += valor - 10;
+        }else{
+            System.out.println("Empréstimo solicitado maior que o limite permitido !!");
         }
     }
 }
