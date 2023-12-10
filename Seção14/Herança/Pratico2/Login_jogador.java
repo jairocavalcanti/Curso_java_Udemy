@@ -1,12 +1,13 @@
 package Seção14.Herança.Pratico2;
 
+
 import java.util.ArrayList;
 
 public class Login_jogador {
     
     private String login;
     private String senha;
-    private Double id;
+    private Integer id;
 
     ArrayList<Login_jogador> array = new ArrayList<>();
 
@@ -14,7 +15,7 @@ public class Login_jogador {
 
     }
 
-    public Login_jogador(String login, String senha, Double id) {
+    public Login_jogador(String login, String senha, Integer id) {
         this.login = login;
         this.senha = senha;
         this.id = id;
@@ -36,11 +37,11 @@ public class Login_jogador {
         this.senha = senha;
     }
 
-    public Double getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Double id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     
@@ -48,6 +49,13 @@ public class Login_jogador {
         array.add(log);
     }
 
+    public void visualizarcadastros(){
+        int cont = 0;     
+        for (Login_jogador e: array){
+            cont +=1;  
+            System.out.println( cont + " - Login do usuário: " + e.login + " || Senha do usuário: " + e.senha + " || ID do usuário: " + "#" + e.id );
+       }
+    }
 
     
     
