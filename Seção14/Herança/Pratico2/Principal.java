@@ -9,8 +9,6 @@ public class Principal {
     Random rand = new Random();
     Login_jogador lgj_1 = new Login_jogador();
  
-
-   
     System.out.println("Insira qual login deseja realizar: 1 - Login_usuario // 2 - Login_dev");
     int escolha = scanner.nextInt();
 
