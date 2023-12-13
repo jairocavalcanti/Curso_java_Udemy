@@ -48,6 +48,11 @@ public class Login_jogador {
         array.add(log);
     }
 
+    public void visualizarcadastro(){
+
+        
+
+    }
 
     
     
