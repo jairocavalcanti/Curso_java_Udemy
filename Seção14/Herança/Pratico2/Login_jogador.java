@@ -9,7 +9,7 @@ public class Login_jogador {
     private String senha;
     private Integer id;
 
-    ArrayList<Login_jogador> array = new ArrayList<>();
+   public static ArrayList<Login_jogador> array = new ArrayList<>();
 
     public Login_jogador(){
 
@@ -45,21 +45,26 @@ public class Login_jogador {
         this.id = id;
     }
     
-    public void adicionarcadastro(Login_jogador log){
+    public void adicionarlogin(Login_jogador log){
         array.add(log);
     }
 
 
-    public void visualizarcadastros(){
+    public static void visualizarlogins(){
         int cont = 0;     
         for (Login_jogador e: array){
-            cont +=1;  
-            System.out.println( cont + " - Login do usuário: " + e.login + " || Senha do usuário: " + e.senha + " || ID do usuário: " + "#" + e.id );
+            cont += 1;  
+            System.out.println(
+            "#" + cont + "\n" +
+            "-------------------------------------------" + "\n" +
+            " |--| ID do usuário: " + "#" + e.id + "\n" +
+            " || Login do usuário: " + e.login + "\n" +
+            " || Senha do usuário: " + e.senha + "\n" + 
+            "-------------------------------------------"
+           
+            );
        }
 
-    }
-
-    
-    
+    }  
 
 }
