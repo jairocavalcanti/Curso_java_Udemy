@@ -28,8 +28,10 @@ public class Login_dev extends Login_jogador {
         array.add(log);
     }
     
-
+   
     public void alterarlogin(Integer id){
+       
+    boolean idencontrado = false;
        
         for(Login_jogador f: array){
             if(id == f.getId()){
@@ -37,12 +39,15 @@ public class Login_dev extends Login_jogador {
              String novo_login = scanner.next();
              f.setLogin(novo_login);
              System.out.println("Login alterado com sucesso !!");
-            }else{
-             System.out.println("ID inserido nao existente nos cadastros!!");
-            }
+             idencontrado = true;
+             break;
         }
+      }
+      if(!idencontrado){
+         System.out.println("ID inserido não existente !!"); 
+      }
     }
-
+ 
 
    /*  public void visualizarlogins(){
         int cont = 0;     

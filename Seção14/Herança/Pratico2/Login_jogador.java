@@ -61,7 +61,7 @@ public class Login_jogador {
             " || Login do usuário: " + e.login + "\n" +
             " || Senha do usuário: " + e.senha + "\n" + 
             "-------------------------------------------"
-           
+         
             );
        }
 
