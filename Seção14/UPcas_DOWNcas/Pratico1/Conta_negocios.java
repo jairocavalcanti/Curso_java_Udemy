@@ -1,4 +1,4 @@
-package Seção14.UPcas_DOWNcas.Upcasting_Downcasting.Pratico1;
+package Seção14.UPcas_DOWNcas.Pratico1;
 
 public class Conta_negocios extends Conta {
     
