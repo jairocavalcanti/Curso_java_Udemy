@@ -8,8 +8,8 @@ public class Principal {
 
         /* -- UPCASTING -- */
 
-        Usina usi2 = new Usina_hidreletrica("Brasil" , "Itaipu", "Hidreletrica", 6000.00);
-        Usina usi3 = new Usina_nuclear("Russia", "Stalin", "Nuclear", 9000.00);
+        Usina usi2 = new Usina_hidreletrica("Brasil" , "Itaipu", "Hidreletrica", 600.00);
+        Usina usi3 = new Usina_nuclear("Russia", "Stalin", "Nuclear", 900.00);
 
 
         /* -- DOWNCASTING -- */
@@ -18,19 +18,19 @@ public class Principal {
         Usina_nuclear usi5 = (Usina_nuclear)usi3;
 
 
-        System.out.println("Insira a taxa por hora da usina hidreletrica: ");
+        System.out.println("Insira a taxa por hora gerada pela usina hidreletrica: ");
         Double taxa_por_hora = scanner.nextDouble();
 
         usi4.contabilizarvolts(taxa_por_hora);
 
         System.out.println("-----------------------------------------------------------");
 
-        System.out.println("Insira a taxa por hora da usina nuclear: ");
+        System.out.println("Insira a taxa por hora gerada pela usina nuclear: ");
         Double taxa_por_hora_2 = scanner.nextDouble();
 
         usi5.contabilizarkilowats(taxa_por_hora_2);
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("----------------------------------------------------------- \n");
 
         if(usi2 instanceof Usina_hidreletrica){
            System.out.println(" -- Informações da usina hidreletrica -- "); 

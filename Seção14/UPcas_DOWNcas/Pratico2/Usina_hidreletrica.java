@@ -1,4 +1,6 @@
 package Seção14.UPcas_DOWNcas.Pratico2;
+import java.text.DecimalFormat;
+
 
 public class Usina_hidreletrica extends Usina {
     
@@ -24,8 +26,13 @@ public class Usina_hidreletrica extends Usina {
 
 
     public void contabilizarvolts(Double taxa_por_hora){
-        System.out.println("-- Taxa por hora da hidreletrica --");
-        System.out.println("R$ - " + taxa_por_hora * volts);
+        DecimalFormat df = new DecimalFormat("#,###.##");
+
+    
+        System.out.println("-- Lucro diário da hidreletrica --");
+        double calc = taxa_por_hora * volts / 24;
+        String valor_formatado = df.format(calc);
+        System.out.println("R$ : " + valor_formatado );
     }
     
 
