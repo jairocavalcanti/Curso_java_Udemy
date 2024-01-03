@@ -36,19 +36,6 @@ public class Usina_nuclear extends Usina {
         System.out.println("R$ : " + valor_formatado);
     }
 
-    /*
-     *  public void contabilizarvolts(Double taxa_por_hora){
-        DecimalFormat df = new DecimalFormat("#,###.##");
-
-    
-        System.out.println("-- Gasto mensal da hidreletrica --");
-        double calc = taxa_por_hora * volts / 30;
-        String valor_formatado = df.format(calc);
-        System.out.println("R$ : " + valor_formatado );
-    }
-    
-     */
-      
 
 
 }
