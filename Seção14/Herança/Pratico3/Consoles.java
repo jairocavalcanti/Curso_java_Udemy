@@ -16,6 +16,7 @@ public class Consoles extends Equipamentos {
     String[] vetor_GPU = {"GPU_PS" , "GPU_X" , "GPU_1"};
     String[] vetor_RAM = {"RAM_PS", "RAM_X" , "RAM_2"};
 
+
     public Consoles(){
 
     }
@@ -36,6 +37,7 @@ public class Consoles extends Equipamentos {
     public Consoles(String nome, String marca, Double preco) {
         super(nome, marca, preco);
     }
+
 
 
     public String getCPU_console() {
@@ -62,6 +64,7 @@ public class Consoles extends Equipamentos {
         RAM_console = rAM_console;
     }
     
+
     public void mostrar_vetores(){
 
        System.out.println(" -- Consoles Disponíveis -- ");
@@ -71,7 +74,7 @@ public class Consoles extends Equipamentos {
        System.out.printf(" \t Especificações");
        for (int i = 0; i < vetor_nome.length; i++){
            System.out.println();
-           System.out.println("#" + cont + " - ");
+           System.out.println("Numeração do produto - #" + cont + "");
            System.out.println("[" + vetor_nome[i]  + "]" + " --  [" + vetor_CPU[i] + "]");
            System.out.println("[" + vetor_marca[i] + "] " + " -- [" + vetor_GPU[i] + "]");
            System.out.println("[" + df.format(vetor_preco[i]) + "] " + " -- [" + vetor_RAM[i] + "]");
@@ -81,7 +84,4 @@ public class Consoles extends Equipamentos {
 
     }
     
-   
-
-
 }
