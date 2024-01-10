@@ -1,5 +1,6 @@
 package Seção14.Herança.Pratico3;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Equipamentos {
@@ -56,7 +57,31 @@ public class Equipamentos {
     }
     
     public void visualizar_lista(){
-        
+       DecimalFormat df = new DecimalFormat("R$: #,###.##");
+       int cont = 0;
+        System.out.println("---------------------------------------");
+       for (Equipamentos e : lista) {
+        if(e instanceof Consoles){
+            System.out.println("Produto ["+ cont + "] da lista adicionado com sucesso! ");
+            Consoles con = (Consoles) e;
+            System.out.println("Nome: " + con.getNome()   + "      CPU_console: " + con.getCPU_console());
+            System.out.println("Marca: " + con.getMarca() + "  GPU_console: " + con.getGPU_console());
+            System.out.println("Preço: " + df.format(con.getPreco()) + "  RAM_console: " + con.getRAM_console() );
+            System.out.println();
+            System.out.println("--------------------------------------- \n");
+            cont++;
+
+         }else{
+            
+            System.out.println("Nome: " + e.nome);
+            System.out.println("Marca: " + e.marca);
+            System.out.println("Preco: " + e.preco);   
+            System.out.println("---------------------");
+         
+        }
+    
+       }
+
     }
 
     
