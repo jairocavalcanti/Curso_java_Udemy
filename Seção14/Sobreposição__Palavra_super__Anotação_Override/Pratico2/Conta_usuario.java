@@ -9,7 +9,7 @@ public class Conta_usuario extends Conta {
 
     }
 
-
+    
     public Conta_usuario(Long id, String login, String senha, Long pontos) {
         super(id, login, senha, pontos);    
     }
