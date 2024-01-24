@@ -1,0 +1,12 @@
+-- POLIMORFISMO -- 
+
+> Em programação orientada a objetos, polimorfismo é o recurso que
+  permite que variáveis de um mesmo tipo mais genérico possam apontar
+  para objetos de tipos específicos diferentes, tendo assim comportamentos
+  diferentes conforme cada tipo específico
+
+> Polimorfismo é um dos 4 principais pilares da programação orientada a objetos
+  (Encapsulamento, Herança, Polimorfismo e Abstração)
+
+> Dependendo da situação, o polimorfismo pode ser fundamental para organização
+  e reutilização de código  
