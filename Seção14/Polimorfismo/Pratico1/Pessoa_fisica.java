@@ -27,10 +27,5 @@ public class Pessoa_fisica extends Metodos {
      public final void sacarvalor(int valor){
           super.sacarvalor(valor);
           System.out.println("CPF da pessoa fisica (PF): " + getCPF() + "\n");
-     }
-
-     
-
-     
-     
+     }    
 }
