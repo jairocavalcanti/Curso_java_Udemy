@@ -41,15 +41,6 @@ public class Triangulo extends Formato {
         return base * altura / 2;
     }
 
-
-
-    
-
-
-
-
-
-
 }
 
 
