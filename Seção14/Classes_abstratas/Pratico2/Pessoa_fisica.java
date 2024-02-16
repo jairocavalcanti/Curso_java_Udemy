@@ -1,5 +1,7 @@
 package Seção14.Classes_abstratas.Pratico2;
 
+import java.text.DecimalFormat;
+
 public class Pessoa_fisica extends Contribuinte {
 
     private Double gastos_com_saude;
@@ -31,24 +33,28 @@ public class Pessoa_fisica extends Contribuinte {
     @Override
     public Double taxa() {
         
-        if(renda_anual <= 20000){
-            System.out.println( "Nome: " + getNome());
-            renda_anual -= (renda_anual * 0.15);
-          //  System.out.println(renda_anual);
+
+        if(renda_anual < 20000){
+            System.out.printf(getNome() + " :");
+            renda_anual *= 0.15;
         }
         
-        else if(renda_anual > 20000){
-            System.out.println("Nome: " + getNome());
-            renda_anual -= (renda_anual * 0.25);
-           // System.out.println(renda_anual);
+        else if(renda_anual >= 20000){
+            System.out.printf(getNome() + " :");
+            renda_anual *= 0.25;
         }
         
-        else if(gastos_com_saude != 0){
-            renda_anual -= gastos_com_saude / 2;
-           // System.out.println(renda_anual);
+        if(gastos_com_saude != 0){
+            renda_anual -= (gastos_com_saude / 2);
         }
         
-        return renda_anual;
+        DecimalFormat df = new DecimalFormat("#####.##");
+
+        String df2 = df.format(renda_anual);
+        Double df3 = Double.parseDouble(df2);
+
+        System.out.printf(" R$ ");
+        return df3;
     }
 
     

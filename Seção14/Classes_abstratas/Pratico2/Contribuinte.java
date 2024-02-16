@@ -35,5 +35,4 @@ public abstract class Contribuinte {
 
     public abstract Double taxa();
     
-
 }
