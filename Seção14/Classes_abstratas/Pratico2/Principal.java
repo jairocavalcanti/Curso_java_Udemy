@@ -55,7 +55,6 @@ public class Principal {
     
     }
    
-
      System.out.println(" \n -- IMPOSTOS PAGOS -- ");
 
      for(Contribuinte c: array){
@@ -65,11 +64,16 @@ public class Principal {
           System.out.println(c.taxa());
       }
       
-      System.out.println();
-
     }
+
+    double soma = 0.0;
+    for(Contribuinte e: array){
+       soma += e.renda_anual;
+    }
+
+    System.out.println(" \n Soma total final : R$ " + soma);
     
-      scanner.close();
+    scanner.close();
     }
     
 }
