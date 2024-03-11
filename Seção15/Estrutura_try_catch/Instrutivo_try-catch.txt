@@ -1,0 +1,12 @@
+ -- ESTRUTURA TRY-CATCH -- 
+
+ > Bloco try :
+   
+   - Contém o código representa a execução normal do trecho de código que
+     pode acarretar em uma execução
+   
+ > Bloco catch : 
+   
+   - Contém o código a ser executado caso uma exceção ocorra
+   - Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido)
+
