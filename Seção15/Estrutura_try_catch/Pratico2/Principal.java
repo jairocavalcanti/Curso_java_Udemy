@@ -9,12 +9,16 @@ public class Principal {
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
       String vector[] = new String[0];
-      boolean t_2 = false;
       boolean t = false;
+      int num_1 = 0;
      
       while (!t) {
         
-      System.out.println("Insira a operação que deseja efetuar: 1 - Definir tamanho do vetor // 2 - Visualizar vetor // 3 - Inserir elementos no vetor");
+      System.out.println("\n Insira a operação que deseja efetuar: \n" + 
+      "\n1 - Definir tamanho do vetor \n" + 
+      "2 - Visualizar vetor \n" + 
+      "3 - Inserir elementos no vetor \n" +
+      "4 - Buscar elemento especifico do vetor");
       String opcao = scanner.next();
   
       switch (opcao) {
@@ -26,7 +30,7 @@ public class Principal {
         try {
           System.out.println("----");
           System.out.println("Insira o tamanho do array que deseja criar: ");
-          int num_1 = scanner.nextInt(); 
+          num_1 = scanner.nextInt(); 
           vector = new String[num_1];
           System.out.println("Vetor de tamanho " +  num_1 + " criado!");
           System.out.println("----");
@@ -41,7 +45,7 @@ public class Principal {
         }
       
         }else{
-          System.out.println("Vetor ja foi criado!");
+          System.out.println(" -- Tamanho do vetor ja foi definido ! -- ");
         }
        
       break;
@@ -63,33 +67,49 @@ public class Principal {
       break;
 
       case "3":
+     
       if(vector.length == 0){
-        System.out.println(" -- Impossivel preencher: Vetor ainda nao foi criado ! -- \n");
+        System.out.println(" -- Impossivel inserir: Vetor ainda nao foi criado ! -- \n");
       }
 
       for(int i = 0; i< vector.length; i++){
        
-        if(t_2 != true){
+        if(vector[i] == null){
           System.out.println("----------------------------");
-          System.out.println("Insira o elemento de posição #" + i + " do vetor: ");
+          System.out.println("Insira o elemento de posição #" + (i+1) + " do vetor: ");
           vector[i] = scanner.next();
-          System.out.println("----------------------------");
         }else{
           System.out.println(" -- Vetor já foi preenchido! -- ");
+          break;
         }
-        t_2 = true;
       }
 
+      break;
+
+      case "4":
+
+      try {
+        
+        System.out.println("\n - Insira a posição do elemento do vetor que deseja visualizar: ");
+        int indice = scanner.nextInt();
+
+        System.out.println("Elemento na posição - " + indice + ": " + vector[indice]);
+        System.out.println("----------------------------");
+
+      } catch (ArrayIndexOutOfBoundsException e) {
+
+        System.out.println(" -- Impossivel visualizar posição: Não existente no vetor! -- \n");
+
+      }
 
       break;
 
       default:
           
-        System.out.println("Insira uma mensagem válida");
+        System.out.println(" !! Insira uma mensagem válida !! ");
         
       break;
-        
-        
+      
         }
 
     }     
