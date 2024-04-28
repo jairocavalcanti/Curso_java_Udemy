@@ -1,0 +1,10 @@
+-- STACK TRACE --
+
+> O termo 'stack trace' (rastreamento de pilha) se refere a um relatório detalhado que é gerado
+  quando uma exceção ocorre durante a execução do programa
+
+> O uso do stack trace facilita o encontro do erro e economiza tempo
+
+> Funções do stack trace utilizadas em código :
+   - imprimir o tipo da exceção
+   - imprimir a sequencia de chamadas (de metodos) que provocou a exceção  
