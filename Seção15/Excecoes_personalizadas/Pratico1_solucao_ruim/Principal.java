@@ -1,4 +1,4 @@
-package Seção15.Excecoes_personalizadas.Pratico1;
+package Seção15.Excecoes_personalizadas.Pratico1_solucao_ruim;
 
 import java.util.Date;
 import java.text.ParseException;
