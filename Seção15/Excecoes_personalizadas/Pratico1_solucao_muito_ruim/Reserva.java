@@ -42,9 +42,8 @@ public class Reserva {
         long diff = checkOut.getTime() - checkIn.getTime();
         // convertendo o valor gerado em milisegundos para dias
         // 'TimeUnit' é um tipo enumerado complexo que possui algumas operações
-        TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
 
-        return diff;
+        return TimeUnit.MILLISECONDS.toDays(diff);
     }
 
     public void atualizarDatas(Date checkIn, Date checkOut) {
