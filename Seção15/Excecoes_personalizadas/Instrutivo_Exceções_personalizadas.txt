@@ -1,0 +1,15 @@
+-- RESUMO DAS SOLUÇÕES --
+
+> Solução 1 (Muito ruim): Lógica de validação no programa principal
+  - Lógica de validação não delegada á reserva
+
+> Solução 2 (Ruim): Método retornando String
+  - A semantica da operação é prejudicada
+         . Retornar string não tem nada a ver com atualização de reserva
+         . E se a operação tivesse que retornar um String?
+ 
+  - Ainda não é possível tratar exceções em contrutores 
+  - Ainda não há auxilio do compilador: o programador deve "lembrar" de verificar se houve erro
+  - A lógica fica estruturada em condicionais aninhadas
+
+> Solução 3 (boa): Tratamento de exceções 
