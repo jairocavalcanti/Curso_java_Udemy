@@ -1,0 +1,14 @@
+
+-- CLASSES UTILIZADAS PARA LEITURA DE ARQUIVOS DE TEXTO --
+
+-----------------------------------------------------------------------------
+
+>> File - Representação abstrata de um arquivo e seu caminho 
+
+>> Scanner - Leitor de texto 
+
+>> IOException(Exception) 
+   -- a IOException herda de Exception
+   -- o compilador obriga o tratamento da Exception
+
+-----------------------------------------------------------------------------
