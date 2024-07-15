@@ -1,0 +1,10 @@
+---- BLOCO TRY WITH RESOURCES ----
+
+-----------------------------------------------------------------------------
+
+>> É um bloco TRY que declara um ou mais recursos, e garante que esses recursos 
+   serão fechados ao final do bloco
+   
+   -- Disponivel no java 7 em diante
+
+-----------------------------------------------------------------------------
