@@ -1,0 +1,13 @@
+---- FILE_READER // BUFFERED_READER ----
+
+-----------------------------------------------------------------------------
+
+>> FileReader (Stream de leitura de caracteres a partir de arquivos)
+   -- ao instanciar FileReader, estarei estabelecendo uma sequencia de leitura a partir de um arquivo
+
+
+>> BufferedReader(Mais rápido)
+   -- Será instanciando a partir do FileReader
+   -- Implementa algumas otimizações utilizando buffer de memória
+
+-----------------------------------------------------------------------------
