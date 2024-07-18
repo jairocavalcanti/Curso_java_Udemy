@@ -83,6 +83,12 @@ Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java
 - Stack_trace
 - Bloco_finally
 - Exceções_personalizadas
+
+## Seção 16 : 
+- Bloco_try_with_resources
+- FileReader_BufferedReader
+- FileWriter_BufferedWriter
+- Lendo_Arquivo_de_texto 
   
 
   
