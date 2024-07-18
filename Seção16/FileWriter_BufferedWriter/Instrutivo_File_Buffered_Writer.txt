@@ -1,0 +1,17 @@
+---- FILE_WRITER // BUFFERED_WRITER ----
+
+-----------------------------------------------------------------------------
+
+>> FILE_WRITER (Stream de escrita de caracterer em arquivos)
+   
+   > Cria/recria o arquivo: new FileWriter(path)
+     -- Se o arquivo não existir, ele será criado
+     -- Se o arquivo já existir, ele será zerado, recriado
+   
+   > Acrescenta ao arquivo existente: new FileWriter(path, true)
+     -- Arquivo existente será aberto, e tudo será escrito ao fim dele
+
+>> BUFFERED_WRITER (Mais rápido)
+   -- Possui "esquema" interno que trata os dados com buffer
+
+-----------------------------------------------------------------------------
