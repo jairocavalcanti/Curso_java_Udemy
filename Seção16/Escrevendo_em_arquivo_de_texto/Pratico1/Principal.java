@@ -1,4 +1,4 @@
-package Seção16.Extra.Pratico_Extra;
+package Seção16.Escrevendo_em_arquivo_de_texto.Pratico1;
 
 import java.io.BufferedWriter;
 import java.io.File;
