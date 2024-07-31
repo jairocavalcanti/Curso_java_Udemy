@@ -105,30 +105,13 @@ public class Principal {
             System.out.println("Erro ocorrido: " + e.getMessage());
         }
 
-            String arquivo_saida = caminho_4;
-            try (BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo_saida))) {
-                System.out.println("Escrito com sucesso! ");
-                bw.write(armazenador.toString());
-            } catch (IOException e) {
-                System.out.println("Se fudeu");
-                e.printStackTrace();
-            }
-        /*
-         * //Verificando se o diretório existe
-         * if (!file.exists()) {
-         * try {
-         * if (file.createNewFile()) {
-         * System.out.println("Arquivo de texto criado no diretório especificado! ");
-         * } else {
-         * System.out.println("Falha ao criar o arquivo de texto ");
-         * }
-         * } catch (IOException e) {
-         * System.out.println("Erro ao criar arquivo de texto: " + e.getMessage());
-         * 
-         * }
-         * }else{
-         * System.out.println("Arquivo de texto já disponível !");
-         * }
-         */
+        String arquivo_saida = caminho_4;
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo_saida))) {
+            System.out.println("Escrito com sucesso! ");
+            bw.write(armazenador.toString());
+        } catch (IOException e) {
+            System.out.println("Se fudeu");
+            e.printStackTrace();
+        }
     }
 }
