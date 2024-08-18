@@ -1,7 +1,7 @@
 package Seção16.Escrevendo_em_arquivo_de_texto.Pratico2;
 
-import java.io.File;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -14,10 +14,12 @@ public class Principal {
         String caminho = "c:\\Pratico2_java_file";
         boolean criado = new File(caminho).mkdir();
 
+        System.out.println();
+
         if (criado) {
             System.out.println("Arquivo criado no diretório especificado! ");
         } else {
-            System.out.println("Arquivo já disponível !");
+            System.out.println("Arquivo já disponível! ");
         }
 
         System.out.println();
@@ -28,9 +30,9 @@ public class Principal {
         try {
             boolean criacao = file.createNewFile();
             if (criacao) {
-                System.out.println("Arquivo de texto criado no diretório especificado!");
+                System.out.println("Arquivo de texto criado no diretório especificado! ");
             } else {
-                System.out.println("Arquivo de texto já existente no diretório");
+                System.out.println("Arquivo de texto já existente no diretório! ");
             }
 
         } catch (IOException e) {
@@ -57,9 +59,9 @@ public class Principal {
         boolean criado_2 = new File(caminho_3).mkdir();
 
         if (criado_2) {
-            System.out.println("Diretório criado no caminho especificado! ");
+            System.out.println("Diretório criado no caminho especificado !");
         } else {
-            System.out.println("Diretório já existente! ");
+            System.out.println("Diretório já existente !");
         }
 
         String caminho_4 = caminho_3 + "\\komas.txt";
@@ -73,7 +75,6 @@ public class Principal {
             }
         } catch (Exception e) {
             System.out.println("Erro ocorrido: " + e.getMessage());
-
         }
 
         StringBuilder armazenador = new StringBuilder();
@@ -110,7 +111,7 @@ public class Principal {
             System.out.println("Escrito com sucesso! ");
             bw.write(armazenador.toString());
         } catch (IOException e) {
-            System.out.println("Se fudeu");
+            System.out.println("Erro occorrido ao escrever arquivo! ");
             e.printStackTrace();
         }
     }
