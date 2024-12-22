@@ -4,6 +4,11 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
+import Seção17.Interfaces.Pratico1.Model.Veiculo;
+import Seção17.Interfaces.Pratico1.Service.AluguelCarro;
+import Seção17.Interfaces.Pratico1.Service.ServicoAluguel;
+import Seção17.Interfaces.Pratico1.Service.TaxServico;
+
 /*
  * Uma locadora brasileira de carros cobra um valor por hora para locações de até 12 horas
  * Porem, se a duração da locação ultrapassar 12 horas, a locação será cobrada com base em

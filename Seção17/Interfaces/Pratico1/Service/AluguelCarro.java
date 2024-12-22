@@ -1,6 +1,9 @@
-package Seção17.Interfaces.Pratico1;
+package Seção17.Interfaces.Pratico1.Service;
 
 import java.time.LocalDateTime;
+
+import Seção17.Interfaces.Pratico1.Model.Fatura;
+import Seção17.Interfaces.Pratico1.Model.Veiculo;
 
 public class AluguelCarro {
 

@@ -1,6 +1,8 @@
-package Seção17.Interfaces.Pratico1;
+package Seção17.Interfaces.Pratico1.Service;
 
 import java.time.Duration;
+
+import Seção17.Interfaces.Pratico1.Model.Fatura;
 
 public class ServicoAluguel {
 

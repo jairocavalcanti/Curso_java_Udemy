@@ -1,4 +1,4 @@
-package Seção17.Interfaces.Pratico1;
+package Seção17.Interfaces.Pratico1.Model;
 
 public class Fatura {
     
