@@ -1,0 +1,12 @@
+---- INTERFACES ----
+
+* A partir do java 8, interfaces podem ter "default methods" ou "defender methods"
+
+* Isso possui implicações conceituais e práticas
+
+ > Interface é um tipo que define um conjunto de operações que uma classe deve implementar 
+
+ > A interface estabelece um CONTRATO que a classe deve cumprir
+
+ > Para que criar interfaces?
+   - Para criar sistemas com BAIXO ACOPLAMENTO e FLEXÍVEIS
