@@ -7,7 +7,7 @@ import java.util.Scanner;
 import Seção17.Interfaces.Pratico1.Model.Veiculo;
 import Seção17.Interfaces.Pratico1.Service.AluguelCarro;
 import Seção17.Interfaces.Pratico1.Service.ServicoAluguel;
-import Seção17.Interfaces.Pratico1.Service.TaxServico;
+import Seção17.Interfaces.Pratico1.Service.TaxaServicoBrasil;
 
 /*
  * Uma locadora brasileira de carros cobra um valor por hora para locações de até 12 horas
@@ -50,7 +50,7 @@ public class Principal {
 
         /*  Instanciação de objeto da classe servicoAluguel, responsavel pelo "processamento"
             do objeto fatura presente na classe AluguelCarro */
-        ServicoAluguel servicoAluguel = new ServicoAluguel(precoporHora, precoporDia, new TaxServico());
+        ServicoAluguel servicoAluguel = new ServicoAluguel(precoporHora, precoporDia, new TaxaServicoBrasil());
 
         // Objeto servicoAluguel "processando" objeto fatura através de um metodo 
         servicoAluguel.processarFatura(ac);

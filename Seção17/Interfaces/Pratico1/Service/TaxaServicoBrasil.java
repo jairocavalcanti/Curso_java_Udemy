@@ -1,6 +1,8 @@
 package Seção17.Interfaces.Pratico1.Service;
 
-public class TaxServico {
+// Essa classe é uma representação dos impostos relacionados ao serviço de aluguel no BRASIL
+
+public class TaxaServicoBrasil {
     
     public double taxa(double quantia){
         if(quantia <= 100){
