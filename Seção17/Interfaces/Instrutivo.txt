@@ -10,3 +10,17 @@
 
  > Para que criar interfaces?
    - Para criar sistemas com BAIXO ACOPLAMENTO e FLEXÍVEIS
+
+
+-- APLICAÇÃO DA INTERFACE NO EXERCICIO 1 --
+
+ > A classe utilizada para representar o serviço de aluguel estava utilizando uma lógica 
+   para calculo de impostos baseada em em uma única classe (TaxaServicoBrasil)
+ 
+ > Caso o sistema precisasse de alterações no futuro, por exemplo se as regras dos estados unidos
+   (UsTaxService) tivessem que ser implementadas, sería trabalhosa a manutenção dessa lógica 
+
+ > A interface nos permite ter um metodo padrão que será implementado conforme as novas regras do sistema
+   (caso necessário), deixamos uma entidade fechada para alterações porem aberta para extensões, principio OCP
+
+ 

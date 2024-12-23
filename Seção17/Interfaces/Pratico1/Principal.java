@@ -50,6 +50,8 @@ public class Principal {
 
         /*  Instanciação de objeto da classe servicoAluguel, responsavel pelo "processamento"
             do objeto fatura presente na classe AluguelCarro */
+        
+        // o objeto da classe TaxaServicoBrasil é um subtipo da classe taxaservico
         ServicoAluguel servicoAluguel = new ServicoAluguel(precoporHora, precoporDia, new TaxaServicoBrasil());
 
         // Objeto servicoAluguel "processando" objeto fatura através de um metodo 
