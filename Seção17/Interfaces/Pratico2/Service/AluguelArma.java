@@ -6,14 +6,14 @@ import Seção17.Interfaces.Pratico2.Model.Arma;
 import Seção17.Interfaces.Pratico2.Model.FaturaArma;
 
 public class AluguelArma {
-    
+
     private LocalDate inicio;
     private LocalDate fim;
 
     private Arma arma;
     private FaturaArma faturaArma;
 
-    public AluguelArma(){
+    public AluguelArma() {
 
     }
 
@@ -54,9 +54,4 @@ public class AluguelArma {
     public void setFaturaArma(FaturaArma faturaArma) {
         this.faturaArma = faturaArma;
     }
-
-    
-    
-
-
 }
