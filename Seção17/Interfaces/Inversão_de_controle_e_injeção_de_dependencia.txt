@@ -1,0 +1,34 @@
+- INJEÇÃO_DEPENDENCIA -- 
+  
+> A injenção de dependencia através de um objeto passado no construtor como em contratoservice garante que diversas lógicas possam ser aplicadas ao programa
+> Através da criação de uma interface com um contrato pré establecido (metodo com assinatura a ser implementado), podemos definir variás
+  lógicas que implementam essa interface, garantido que a interface nunca precise de correções
+
+  EXEMPLO: 
+
+  metodo do contrato da interface: 
+  
+  > double taxa(double quantia)
+
+  ! A partir do metodo acima podemos criar varias lógicas que o implementam corretamente, e podemos fazer isso em classes separadas !
+
+  metodo que poderia implementar o contrato da interface acima (em uma classe separada especificamente para ele): 
+ 
+  >  public double taxa(double quantia){
+        if(quantia <= 100){
+            return quantia * 0.2;
+        }else{
+            return quantia * 0.15;
+        }
+    }
+
+-- INVERSÃO_DE_CONTROLE--
+
+> A inversão de controle(IoC) está intimamente ligada á injeção de dependencia
+> A inversão de controle acontece quando uma classe recebe um objeto de outra classe 
+  que pode ser implementada de varias formas (interface) diretamente em seu construtor
+> Acontece quando uma classe NAO cria suas dependencias, mas sim as recebem de fora
+
+> A Inversão de Controle acontece quando uma classe não gerencia diretamente a criação de suas dependências
+  mas as recebe de uma fonte externa 
+  (como via construtor, método setter ou injeção automática por um framework como Spring)
