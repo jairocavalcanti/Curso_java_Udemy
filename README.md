@@ -2,6 +2,9 @@
 
 Repositório dedicado ao armazenamento de todo conteúdo adquirido no curso java udemy
 
+Neste repositório são mostrados exemplos práticos sobre vários conceitos fundamentais do java
+Os 4 pilares da programação orientada a objeto são também fortemente abordados
+
 ## Seção 8 : 
 
 - Membros_Estaticos
