@@ -1,0 +1,27 @@
+-- CUMPRIR_CONTRATO VS HERDAR -- 
+
+> Cumprir_Contrato: No código do package "Cumprir_Contrato" possuímos um cumprimento de contrato  
+  definido pela interface
+  - Nesse código possuímos uma classe abstrata que implementa uma interface com o metodo area()
+  - Isso garante maior organização do código pois conseguimos garantir a implementação da interface
+    e a herança da classe abstrata com maior clareza e precisão
+
+  - Esse modelo fornece BAIXO ACOPLAMENTO, pois separa claramente o contrato (interface)
+    da estrutura comum (classe abstrata)
+
+------------------------------------------------------
+
+> Herdar: No código do package "Herança" temos o mesmo código porém sem o uso de uma interface, 
+  a herança é feita de forma direta
+   - Nesse código possuímos uma classe abstrata que fornece o atributo de cor e o metodo area()
+   - O método area() será implementado com uso de override pelas classes que herdarem dessa classe abstrata
+
+  - Esse modelo fornece ALTO ACOPLAMENTO, fazendo a subclasse depender muito da superclasse
+
+                                   << Resumo >>
+
+   interface: nos serve como um contrato puro sem fornecer atributos e comportamentos padrão
+
+   Herança(sem uso de interface): pode fornecer atributos e comportamentos padrão, podendo gerar problemas no futuro
+
+
