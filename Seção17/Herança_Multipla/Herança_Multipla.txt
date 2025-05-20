@@ -1,0 +1,22 @@
+-- HERANÇA_MULTIPLA --
+
+> A herança multipla pode gerar o problema do diamante: uma ambiguidade causada
+  pela existencia do mesmo método em mais de uma superclasse, e por isso a herança múltipla entre classes 
+  é proibida em java
+
+> Herança multipla não é permitida na maioria das linguagens 
+
+> Java não permite herança múltipla entre classes, mas permite que uma classe implemente múltiplas interfaces.
+  As interfaces em java fornecem uma forma segura de herança mútipla, ja que os metodos abstratos da interface
+  não dependem de implementação prévia, (exceto metodos default, que seguem regras bem definidas)
+  
+> A implementação de MÚLTIPLAS INTERFACES por uma ÚNICA CLASSE é considerada uma forma de HERANÇA MÚLTIPLA em Java, 
+  é uma maneira controlada de entender o conceito de herança múltipla sem o problema do diamante
+
+
+-- POR QUE O NOME "HERANÇA MÚLTIPLA?" --
+
+>> Se a classe é capaz de implementar múltiplas interfaces, isso significa que essa classe herdará ambos os metodos
+   definidos nessas interfaces (mesmo que ainda não possuam implementação concreta)
+   Esse comportamento caracteriza o conceito de HERANÇA MULTIPLA em java, aplicado de forma SEGURA e CONTROLADA 
+   através de interfaces
